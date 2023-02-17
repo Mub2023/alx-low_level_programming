@@ -8,10 +8,10 @@
  **/
 int main(void)
 {
-	for(int x = 'A'; x <= 'z'; x++)
-	{
-		char S = tolower(x);
+	int ma;
+
+	for(ma = 'a'; ma <= 'z'; ma++)
 		putchar(S);
-	}
+	
 	return (0);
 }
