@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -Entry point
+*main -Entry point
 *description : Positive anything is better than negative nothing
 *Return : Always 0 (success)
-*int main(void)
 **/
+int main(void)
 {
 	int n;
 
