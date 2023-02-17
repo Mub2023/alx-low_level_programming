@@ -11,7 +11,7 @@ int main(void)
 	int ma;
 
 	for(ma = 'a'; ma <= 'z'; ma++)
-		putchar(S);
+		putchar(ma);
 	
 	return (0);
 }
