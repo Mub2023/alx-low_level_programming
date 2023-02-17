@@ -8,9 +8,12 @@
  **/
 int main (void) 
 {
-	int (sa, e, q)
-	    int e = 'e'
-		    int q = 'q'
+	char sa;
+       	char e;
+	char q;
+
+	    char e = 'e'
+		    char q = 'q'
 
 	for(sa = 'a';sa <= 'z' ; sa++)
 	{(sa != e && sa != q)
