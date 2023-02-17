@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -Entry point
+ * main - Entry point
  * description : Positive anything is better than negative nothing
  * Return : Always 0 (success)
  * */
@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-/* print whether the number stored in the variable n is positive or negative */
+/*print whether the number stored in the variable n is positive or negative*/
 	if (n > 0)
 		printf("%d is positive\n", n);
 		else if (n < 0)
