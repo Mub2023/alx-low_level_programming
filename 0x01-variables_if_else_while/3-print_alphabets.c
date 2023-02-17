@@ -11,9 +11,9 @@ int main(void)
 	int sa;
 	int bg;
 
-	for (sa = 'a'; sa<= 'z'; sa++)
+	for (sa = 'a'; sa <= 'z'; sa++)
 		putchar(sa);
-	for (bg = 'A'; bg<= 'Z'; bg++)
+	for (bg = 'A'; bg <= 'Z'; bg++)
 		putchar(bg);
 	putchar('\n');
 	return (0);
