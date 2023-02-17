@@ -6,15 +6,18 @@
  *     * */
 int main (void)
 {
-	        n = rand() - RAND_MAX / 2;
-			        if (n>0)
-					        {
-							                printf("is is positive\n");
-									                                else(n<0)
-														                                printf("is negative\n");
-													                                else
-																		                                printf("is zero\n");
-																	        }
-return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n>0)
+	{
+		printf("is is positive\n");
+		else(n<0)
+			printf("is negative\n");
+		else
+			printf("is zero\n");
+	}
+	return (0);
 }
 
