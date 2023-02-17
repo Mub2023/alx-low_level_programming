@@ -16,7 +16,7 @@ int main (void)
 		q = 'q';
 
 	for(sa = 'a';sa <= 'z' ; sa++)
-	(sa != e && sa != q)
+	(sa != e , sa != q)
 		putchar(sa);
 	putchar('\n');
 	return (0);
