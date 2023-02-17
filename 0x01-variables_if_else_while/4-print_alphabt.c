@@ -12,8 +12,8 @@ int main (void)
        	char e;
 	char q;
 
-	    char e = 'e'
-		    char q = 'q'
+	e = 'e'
+		q = 'q'
 
 	for(sa = 'a';sa <= 'z' ; sa++)
 	(sa != e && sa != q)
