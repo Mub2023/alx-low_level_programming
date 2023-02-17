@@ -5,7 +5,7 @@
  *   * description : Positive anything is better than negative nothing
  *    * Return : Always 0 (success)
  *     * */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -14,9 +14,9 @@ int main (void)
 	if (n>0)
 	{
 		printf("is is positive\n");
-		else(n<0)
+		else (n<0)
 			printf("is negative\n");
-		else(n==0)
+		else (n==0)
 			printf("is zero\n");
 	}
 	return (0);
