@@ -10,7 +10,6 @@
 int main(void)
 {
 	int i, w;
-	
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (w = '0'; w <= '9'; w++)
@@ -21,13 +20,13 @@ int main(void)
 				putchar(w);
 				if ((i != '8' || (i == '8' && w != '9')))
 				{
-				putchar(',');
-				putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
 	}
 	putchar ('\n');
-
+	
 	return (0);
 }
