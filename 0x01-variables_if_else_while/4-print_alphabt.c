@@ -8,7 +8,7 @@
  **/
 int main(void)
 {
-	char sa, e, q
+	char sa, e, q;
 
 	e = 'e';
 		q = 'q';
