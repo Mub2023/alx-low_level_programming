@@ -6,11 +6,9 @@
  *
  *Return: Always 0 (Success)
  **/
-int main (void) 
+int main(void)
 {
-	char sa;
-       	char e;
-	char q;
+	char sa, e, q
 
 	e = 'e';
 		q = 'q';
@@ -19,7 +17,7 @@ int main (void)
 	{
 		if (sa != e && sa != q)
 		putchar(sa);
-	}
+	i
 	putchar('\n');
 	return (0);
 }
