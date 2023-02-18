@@ -3,7 +3,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * description :print string
+ * 
  * Return: Always 1 (Success)
  **/
 int main(void)
