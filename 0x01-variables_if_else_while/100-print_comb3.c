@@ -14,12 +14,11 @@ int main(void)
 	{
 		for (w = '0'; w <= '9'; w++)
 		{
-			if (i != w)
+			if (i < w)
 			{
+				 if (i != '8' && w != '9')
 				putchar(i);
 				putchar(w);
-
-				if (i != '8' && w != '9')
 				putchar(',');
 				putchar(' ');
 			}
