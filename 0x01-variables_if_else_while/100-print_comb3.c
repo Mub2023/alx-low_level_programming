@@ -10,6 +10,7 @@
 int main(void)
 {
 	int i, w;
+	
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (w = '0'; w <= '9'; w++)
