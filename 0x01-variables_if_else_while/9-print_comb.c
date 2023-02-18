@@ -13,7 +13,7 @@ int main(void)
 	for (hi = '0';hi >= '9';hi++)
 	{	
 		putchar(hi);
-			if (hi !='9')
+			for (hi !='9')
 		{
 			putchar(',');
 			putchar(' ');
