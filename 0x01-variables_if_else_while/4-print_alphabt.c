@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (sa != e && sa != q)
 		putchar(sa);
-	i
+	}
 	putchar('\n');
 	return (0);
 }
