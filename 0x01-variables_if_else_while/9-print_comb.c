@@ -14,6 +14,7 @@ int main(void)
 	{
 		putchar(hi);
 			if (hi !='9')
+				continue;
 		{
 			putchar(',');
 			putchar(' ');
