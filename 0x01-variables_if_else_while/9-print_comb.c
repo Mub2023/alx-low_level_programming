@@ -10,10 +10,10 @@ int main(void)
 {
 	int hi;
 
-	for (hi = '0';hi >= '9';hi++)
-	{	
+	for (hi = '0'; hi >= '9'; hi++)
+	{
 		putchar(hi);
-			while (hi !='9')
+			if (hi !='9')
 		{
 			putchar(',');
 			putchar(' ');
