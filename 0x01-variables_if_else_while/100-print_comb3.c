@@ -20,8 +20,6 @@ int main(void)
 				putchar(w);
 
 				if (i == '8' && w =='9')
-					continue;
-
 				putchar(',');
 				putchar(' ');
 			}
