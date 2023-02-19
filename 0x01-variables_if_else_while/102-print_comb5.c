@@ -18,20 +18,19 @@ int main(void)
 				for (d = 48; d <= 57; d++)
 				{
 					if (((d + c) > (a + b) && c >= a) || a < c)
+					{
 						putchar(a);
 						putchar(b);
 						putchar(' ');
 						putchar(c);
 						putchar(d);
 						sum = a + b + c + d;
-						if (sum == 227 && a == 57)
-						{
-							break;
-						}
+						if (sum == 227 && a == 57) break;
 						{
 							putchar(',');
 							putchar(' ');
 						}
+					}
 				}
 			}
 		}
