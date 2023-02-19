@@ -7,32 +7,23 @@
  **/
 int main(void)
 {
-	int a, b, c, d, sum;
+	int a, b;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 0; a <= 98; a++)
 	{
-		for (b = 48; b <= 57; b++)
+		for (b = 0; b <= 99; b++)
 		{
-			for (c = 48; c <= 57; c++)
-			{
-				for (d = 48; d <= 57; d++)
-				{
-					while (((d + c) > (a + b) && c >= a) || a < c)
-					{
-						putchar(a);
-						putchar(b);
-						putchar(' ');
-						putchar(c);
-						putchar(d);
-						sum = a + b + c + d;
-						if (sum == 227 && a == 57)break;
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-				}
-			}
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
+			putchar(' ');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
+
+			if (a == 98 && b == 99)
+				continue;
+			
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
