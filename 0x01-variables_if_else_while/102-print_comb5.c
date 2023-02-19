@@ -25,7 +25,7 @@ int main(void)
 						putchar(c);
 						putchar(d);
 						sum = a + b + c + d;
-						if (sum == 227 && a == 57) break;
+						if (sum == 227 && a == 57; break)
 						{
 							putchar(',');
 							putchar(' ');
