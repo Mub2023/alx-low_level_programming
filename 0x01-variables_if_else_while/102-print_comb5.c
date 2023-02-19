@@ -9,7 +9,7 @@
  **/
 int main(void)
 {
-	int a, b, c, d, sum;
+	int a, b, c, d;
 	int sum = a + b + c + d;
 		
 		for (a = 48; a <= 57; a++)
