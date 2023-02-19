@@ -9,7 +9,8 @@
  **/
 int main(void)
 {
-	int a, b, c, d;
+	int a, b, c, d, sum;
+	sum = a + b + c + d 
 
 	for (a = 48; a <= 57; a++)
 	{
@@ -26,7 +27,7 @@ int main(void)
 						putchar(' ');
 						putchar(c);
 						putchar(d);
-						if (a == 57)
+						if (sum == 227 && a == 57)
 							break;
 						{
 							putchar(',');
