@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main"
+#include "main.h"
 /**
  * main - check the code
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
