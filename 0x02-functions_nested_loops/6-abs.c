@@ -7,15 +7,14 @@
 
 /**
  * _abs - Computes the absolute value of an integer.
- * @n: The integer to be computed.
- * 
+ * @c: The integer to be computed.
+ *
  * Return: The absolute value of the integer.
- */
+ **/
 int _abs(int c)
 {
-	int w;
-
-	w = c * -1;
-	_putchar(w);
-	return (w);
+	if (c >= 0)
+	return (c);
+	else
+		return (-c);
 }
