@@ -6,7 +6,7 @@
  * main - Entry point
  * Return: Always 0 (Success)
  * */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char a;
 	int count = 0;
@@ -16,5 +16,5 @@ void print_alphabet_x10(void);
 	for (a = 'a';a <= 'z'; a++)
 		_putchar('a');
 		}
-	putchar('\n');
+	_putchar('\n');
 }
