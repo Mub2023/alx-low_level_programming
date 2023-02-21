@@ -7,7 +7,7 @@
  * used in the 0x02-functions_nested_loops directory.
  **/
 
-char ma [8] = "_putchar";
+char ma [9] = "_putchar";
 
 
 
