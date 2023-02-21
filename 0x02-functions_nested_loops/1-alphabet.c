@@ -3,9 +3,9 @@
 #include <time.h>
 #include "main.h"
 /**
- *main - Entry point
- *Ath : mubark musad atta abuzzaid
- *Return: Always 0 (Success)
+ * main - Entry point
+ * Ather : mubark musad atta abuzzaid
+ * Return: Always 0 (Success)
  **/
 void print_alphabet(void)
 {
