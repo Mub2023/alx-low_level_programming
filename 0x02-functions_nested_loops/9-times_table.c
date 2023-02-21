@@ -11,16 +11,16 @@ void times_table(void)
 	int hi;
 
 	for (hi = '0'; hi <= '9'; hi++)
-		_putchar(hi * 0);
+		_putchar(hi * '0');
 	_putchar(',');
 	_putchar(' ');
-	_putchar(hi * 1);
+	_putchar(hi * '1');
 		_putchar(',');
 		_putchar(' ');
-	_putchar(hi * 2);
+	_putchar(hi * '2');
 	_putchar(',');
 	_putchar(' ');
-	_putchar(hi * 3);
+	_putchar(hi * '3');
 	_putchar(',');
 	_putchar(' ');
 	_putchar(hi * 4);
