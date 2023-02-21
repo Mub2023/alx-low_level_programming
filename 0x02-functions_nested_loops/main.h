@@ -8,7 +8,7 @@
  * main - Entry point
  * Return: Always 0 (Success)
  **/
-char _putchar(char a);
+int _putchar(a);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 #endif
