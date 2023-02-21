@@ -11,6 +11,7 @@ void times_table(void)
 	int hi, x0, x1, x2, x3, x4, x5, x6, x7, x8, x9;
 
 	for (hi = 0; hi <= 9; hi++)
+	{
 		x0 = hi * 0;
 		_putchar(x0);
 	_putchar(',');
@@ -49,4 +50,5 @@ void times_table(void)
 	_putchar(' ');
 	x9 = hi * 9;
 	_putchar(x9);
+	}
 }
