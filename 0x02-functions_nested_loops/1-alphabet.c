@@ -1,13 +1,14 @@
+/*
+ * File: 1-alphabet.c
+ * Auth: mubark musad atta
+ */
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include "main.h"
 /**
- * main - Entry point
- * description :'print_alphabet'
- * 1-alphabet.c
- * Return: Always 0 (Success)
- **/
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ */
 void print_alphabet(void)
 {
 	char a;
