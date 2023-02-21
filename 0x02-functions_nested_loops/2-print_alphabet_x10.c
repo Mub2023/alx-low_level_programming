@@ -7,9 +7,10 @@ void print_alphabet_x10(void)
 {
 	unsigned int count;
 	unsigned int b;
-
-		do (count = 0; count <= 9; count++)
+	count = 0
+		while (count <= 9)
 		{
+			count++
 			for (b = 'a'; b <= 'z'; b++)
 				_putchar(b);
 			_putchar('\n');
