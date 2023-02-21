@@ -5,9 +5,10 @@
  **/
 void print_alphabet_x10(void)
 {
-	unsigned int count;
-	unsigned int b;
-	count = 0
+	int count;
+	int b;
+	count = 0;
+
 		while (count <= 9)
 		{
 			count++
