@@ -7,7 +7,7 @@
  *Ath : mubark musad atta abuzzaid
  *Return: Always 0 (Success)
  **/
-int main(void)
+void print_alphabet(void)
 {
 	int a;
 
