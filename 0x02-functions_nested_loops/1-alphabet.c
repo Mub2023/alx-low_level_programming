@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
+#include "main"
 /**
- * main - Entry point
+ * main - check the code
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  * Return: Always 0 (Success)
  **/
