@@ -9,9 +9,9 @@
 int main(void)
 {
 	int t;
-	char ma [9] = "_putchar";
+	char ma [] = "_putchar";
 
-	for (size_t t = 0; t < strlen(ma); t++)
+	for (t = 0; t < strlen(ma); t++)
 	{
 		putchar(ma[t]);
 	}
