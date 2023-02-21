@@ -8,9 +8,11 @@
  **/
 int main(void)
 {
-	for (int t = 0; t < strlen(me); t++)
+	int t;
+
+	for (t = 0; t < strlen(ma); t++)
 	{
-		putchar(me[t]);
+		putchar(ma[t]);
 	}
 	putchar('\n');
 	return (0);
