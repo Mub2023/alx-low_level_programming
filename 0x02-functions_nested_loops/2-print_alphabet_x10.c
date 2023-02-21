@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -9,7 +6,7 @@
 void print_alphabet_x10(void)
 {
 	int count = 0;
-	int a;
+	char a;
 
 		while (count++ <= 9)
 		{
