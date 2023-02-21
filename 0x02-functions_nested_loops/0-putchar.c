@@ -8,10 +8,10 @@
  **/
 int main(void)
 {
-       unsigned char t;
+	unsigned char t;
 	char ma [] = "_putchar";
 
-	for (t = 0; t < strlen(ma); t++)
+	for(t = 0; t < strlen(ma); t++)
 	{
 		putchar(ma[t]);
 	}
