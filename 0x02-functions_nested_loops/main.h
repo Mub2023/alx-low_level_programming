@@ -1,6 +1,6 @@
 #ifndef main_h
 #define main_h
-/*
+/**
  * file : main.h
  * Auth : mubarak musad atta
  * Desc: Header file containing declarations for all functions
