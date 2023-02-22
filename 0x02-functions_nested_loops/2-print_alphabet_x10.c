@@ -5,7 +5,7 @@
  *
  * Return: nothing on Success
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int sad, nd, count;
 
