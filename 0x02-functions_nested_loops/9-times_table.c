@@ -8,30 +8,39 @@
  */
 void times_table(void)
 {
-	int hi, wo, bye;
+	int hi, wo, count, sum;
 
-	for (hi = 0; hi <= 9; hi++)
+	hi = 0;
+	wo = 9;
+	count = 0;
+	while (count <= 9)
 	{
-	_putchar('0');
-	for (wo = 1; wo <= 9; wo++)
-	{
-	_putchar(',');
-	_putchar(' ');
+		while (hi <= wo)
+		{
+		sum = count * hi
 
-	bye = hi * wo;
-
-	if (bye <= 9)
-	{
-	_putchar(' ');
-	}
-	else
-	{
-		_putchar((bye / 10 + '0'));
-
-		_putchar((bye % 10 + '0'));
-	}
-	}
-	_putchar('\n');
+			if (hi != 0)
+			{
+				_putchar(',');
+				if (sum < 10)
+				{
+					_putchar(' ');
+					_putchar(' ');
+				}
+				else
+					_putchar(' ');
+			}
+		if (sum < 10)
+			_putchar(sum + '0');
+		else
+		{
+			_putchar(sum / 10 + '0');
+		_putchar(sum % 10 + '0');
+		}
+		if (hi == wo)
+			_putchar('\n');
+		hi++;
+		}
+		hi = 0;
 	}
 }
-
