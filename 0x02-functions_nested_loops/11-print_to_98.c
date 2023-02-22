@@ -11,7 +11,7 @@
  */
 void print_to_98(int n)
 {
-	int m
+	int m;
 	if (n < 98)
 	{
 	for (m = n; n < 98; m++)
@@ -24,7 +24,7 @@ void print_to_98(int n)
 		for (m =n ; n < 98; m--)
 		{
 			printf("%d, ", m);
-			printf("98\n", m)
+			printf("98\n", m);
 		}
 	}
 }
