@@ -10,39 +10,18 @@
  */
 void print_to_98(int n)
 {
-	if (n == 0)
+	if (n < 98)
 	{
-	for (n = 0; n <= 98; n++)
+	while (n++ < 98)
 	       _putchar(n);
 	_putchar(',');
 _putchar(' ');
 	}
-	else if (n == 98)
+	else (n > 98)
 	{
-		for (n = 98; n <= 111; n++)
+		while (n-- > 98)
 			_putchar(n);
 		_putchar(',');
 		_putchar(' ');
 	}
-		else if (n == 111)
-		{
-			for (n = 111; n <= 98; n--)
-				_putchar(n);
-			_putchar(',');
-			_putchar(' ');
-		}
-		else if (n == 81)
-		{
-			for (n = 81; n <= 98; n++)
-				_putchar(n);
-			_putchar(',');
-			_putchar(' ');
-		}
-		else if (n == -10)
-		{
-			for (n = -10; n <= 98; n++)
-				_putchar(n);
-			_putchar(',');
-			_putchar(' ');
-		}
 }
