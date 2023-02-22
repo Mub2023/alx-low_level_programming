@@ -11,20 +11,20 @@
  */
 void print_to_98(int n)
 {
+	int m
 	if (n < 98)
 	{
-	while (n < 98)
+	for (m = n; n < 98; m++)
 	{
-		printf("%d, ", n--);
-	printf("%d\n", n);
+		printf("%d, ", m);
 	}
 	}
 	else
 	{
-		while (n < 98)
+		for (m =n ; n < 98; m--)
 		{
-			printf("%d, ", n++);
-			printf("%d\n", n);
+			printf("%d, ", m);
+			printf("98\n", m)
 		}
 	}
 }
