@@ -4,9 +4,11 @@
  */
 #include "main.h"
 /**
- * a + b adds two integers and returns the result
- * Retrun : sum the result
- */
+ * add - Adds two integers.
+ * @a: The first integer to be added.
+ * @b: The secand integer to be added.
+ * Return: @sum The result of the addition.
+ **/
 int add(int a, int b)
 {
 	int sum;
