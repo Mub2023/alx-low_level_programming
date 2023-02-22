@@ -23,6 +23,7 @@ _putchar(' ');
 			_putchar(n);
 		_putchar(',');
 		_putchar(' ');
+	}
 		else if (n == 111)
 		{
 			for (n = 111; n <= 98; n--)
