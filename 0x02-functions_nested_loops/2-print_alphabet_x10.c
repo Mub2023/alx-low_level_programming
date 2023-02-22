@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 			while (sad <= nd)
 			{
 				_putchar(sad);
-				sad++
+				sad++;
 			}
 			_putchar('\n');
 
