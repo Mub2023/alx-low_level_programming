@@ -21,9 +21,11 @@ _putchar(' ');
 	else
 	{
 		while (n > 98)
+		{
 			n--;
 			_putchar(n);
 		_putchar(',');
 		_putchar(' ');
+		}
 	}
 }
