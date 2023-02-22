@@ -13,9 +13,9 @@ void times_table(void)
 	hi = 0;
 	wo = 9;
 	count = 0;
-	while (count <= 9)
+	for (count <= 9)
 	{
-		while (hi <= wo)
+		for (hi <= wo)
 		{
 		sum = count * hi;
 
