@@ -21,7 +21,9 @@ void times_table(void)
 	bye = hi * wo;
 
 	if (bye <= 9)
+	{
 	_putchar(' ');
+	}
 	else
 		_putchar((bye / 10 + '0'));
 
@@ -31,3 +33,4 @@ void times_table(void)
 	_putchar('\n');
 	}
 }
+
