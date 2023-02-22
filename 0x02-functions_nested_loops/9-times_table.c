@@ -17,7 +17,7 @@ void times_table(void)
 	{
 		while (hi <= wo)
 		{
-		sum = count * hi
+		sum = count * hi;
 
 			if (hi != 0)
 			{
