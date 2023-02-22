@@ -7,5 +7,6 @@
 #include <time.h>
 
 void positive_or_negative(int i);
+int main(int a, int b ,int c);
 
 #endif
