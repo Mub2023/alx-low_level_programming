@@ -19,7 +19,7 @@ int main(void)
 	for (d = 0; d < 50; d++)
 	{
 		k = u + c;
-		printf("%lu", k);
+		printf("%lu", u);
 
 		u = c;
 		c = k;
