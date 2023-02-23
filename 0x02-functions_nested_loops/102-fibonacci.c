@@ -3,14 +3,15 @@
  */
 #include <stdio.h>
 /**
- * main  - prints the first 50 Fibonacci numbers, starting with 1 and 2
+ * main  - Prints first 50 Fibonacci numbers, starting with 1 and 2
  * followed by a new line
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	long int d, u, c, k;
+	int d;
+	long int u, c, k;
 
 	u = 1;
 
@@ -18,17 +19,19 @@ int main(void)
 
 	for (d = 0; d <= 50; d++)
 	{
-		if (u != 20365011074)
-		{
-			printf("%ld, ", u);
-		}
-		else
-		{
-			printf("%ld\n", u);
-		}
 		k = u + c;
 		u = c;
 		c = k;
+		printf("%lu", k);
+		if (d == 49)
+		{
+			printf("\n");
+		}
+		else
+		{
+			printf(",");
+		}
 	}
+
 	return (0);
 }
