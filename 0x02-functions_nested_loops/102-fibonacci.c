@@ -11,11 +11,11 @@
 int main(void)
 {
 	int d;
-	long int u, c, k;
+	unsigned long int u, c, k;
 
-	u = 1;
+	u = 0;
 
-	c = 2;
+	c = 1;
 
 	for (d = 0; d <= 50; d++)
 	{
