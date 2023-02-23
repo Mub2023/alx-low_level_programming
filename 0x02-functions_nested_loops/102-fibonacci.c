@@ -16,7 +16,7 @@ int main(void)
 	u = 0;
 	c = 1;
 
-	for (d = 0; d <= 50; d++)
+	for (d = 0; d < 50; d++)
 	{
 		k = u + c;
 		printf("%lu", k);
