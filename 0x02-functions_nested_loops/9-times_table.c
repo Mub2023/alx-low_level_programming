@@ -9,7 +9,7 @@
 void times_table(void)
 {
 	int hi, wo, sum;
-	
+
 	for (hi = 0; hi < 10 ; hi++)
 	{
 		for (wo = 0; wo < 10; wo++)
@@ -31,7 +31,7 @@ void times_table(void)
 				_putchar((sum / 10) + '0');
 				_putchar((sum % 10) + '0');
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
