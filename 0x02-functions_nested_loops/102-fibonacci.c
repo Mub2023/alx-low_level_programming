@@ -11,7 +11,7 @@
 int main(void)
 {
 	int d;
-	unsigned long int u, c, k;
+	unsigned long u, c, k;
 
 	u = 0;
 	c = 1;
@@ -19,7 +19,7 @@ int main(void)
 	for (d = 0; d < 50; d++)
 	{
 		k = u + c;
-		printf("%lu", u);
+		printf("%lu", k);
 
 		u = c;
 		c = k;
@@ -29,7 +29,7 @@ int main(void)
 		}
 		else
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 
