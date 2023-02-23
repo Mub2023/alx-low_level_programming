@@ -13,8 +13,8 @@ int main(void)
 	unsigned long s, l, p;
 	float y;
 
-	s = 0
-		l = 1
+	s = 0;
+		l = 1;
 		while (1)
 		{
 			p = s + l;
