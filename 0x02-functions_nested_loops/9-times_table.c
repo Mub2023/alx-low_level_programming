@@ -15,8 +15,8 @@ void times_table(void)
 		for (wo = 0; wo < 10; wo++)
 		{
 			sum = hi * wo;
-			if (hi == 0)
-				_putchar('0');
+			if (wo == 0)
+				_putchar(sum + '0');
 			if (wo != 0 && sum < 10)
 			{
 				_putchar(',');
