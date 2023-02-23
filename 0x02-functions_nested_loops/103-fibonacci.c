@@ -27,7 +27,7 @@ int main(void)
 			s = l;
 			l = p;
 		}
-	printf("%.0f\n", p);
+	printf("%.0f\n", y);
 
 	return (0);
 }
