@@ -2,15 +2,13 @@
  * file name :101-natural.c
  * Auth: mubarak musad atta
  */
-#include "main.h"
 #include <stdio.h>
 /**
- * main - Prints the natural numbers below of 3 or 5 below.
- * @th: Is the counter
- * @fi: Is the limiter
- * @sum: Prints the sum of all the multiples
- * Return: Nothing.
- */
+ * main - Prints the natural numbers below 1024 .
+ * @sum = Ruslt
+ *
+ * Return: Always 0.
+ **/
 int main(void)
 {
 	int th, fi, sum;
