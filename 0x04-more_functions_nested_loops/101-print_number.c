@@ -16,5 +16,5 @@ void print_number(int n)
 	if ((mm / 10) > 0)
 		print_number(mm / 10);
 
-	_putchar((num % 10) + '0');
+	_putchar((mm % 10) + '0');
 }
