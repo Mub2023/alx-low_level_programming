@@ -11,8 +11,8 @@ void print_diagonal(int n)
 	ja = 0;
 	while (n > 0)
 	{
-		fa = ja
-			while (ja > 0)
+		fa = ja;
+			while (fa > 0)
 		{
 			_putchar(' ');
 			fa--;
