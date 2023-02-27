@@ -13,5 +13,6 @@ int _strlen(char *s)
 	{
 		s++;
 	}
+	_putchar(strlen(s));
 	return (*s);
 }
