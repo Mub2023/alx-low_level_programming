@@ -3,7 +3,8 @@
  * Auth : mubarak musadatta
  */
 /**
- * print_rev - a function that prints a string, in reverse, followed by a new line.
+ * print_rev - a function that prints a string,
+ *  in reverse, followed by a new line.
  * @s: is the pointer to the string
  * Retrun: Always 0 (Success)
  */
@@ -15,8 +16,10 @@ void print_rev(char *s)
 	{
 		c++;
 	}
-	while (c)
-		_putchar(s[--]c);
-
+	while (c !=  0)
+	{
+		_putchar(s[c]);
+	c--
+	}
 	_putchar('\n');
 }
