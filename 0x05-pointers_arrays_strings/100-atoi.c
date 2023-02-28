@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _atoi - a function that convert a string to an integer
- * @s: pointer of the string 
+ * @s: pointer of the string
  * Return: the string integer or return 0 if no number
  */
 int _atoi(char *s)
 {
-	int a; b; d; len, e, digit;
-	
+	int a, b, d, len, e, digit;
+
 	a = 0;
 	b = 0;
 	d = 0;
@@ -28,7 +28,7 @@ int _atoi(char *s)
 				digit = -digit;
 			d = d * 10 + digit;
 			e = 1;
-			if(s[a + 1] < '0' || s[a + 1] >'9')
+			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
 			e = 0;
 		}
@@ -37,5 +37,5 @@ int _atoi(char *s)
 	if (e == 0)
 		return (0);
 
-	return (n);
+	return (d);
 }
