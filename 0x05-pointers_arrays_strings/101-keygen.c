@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - a program that generates random valid passwords
