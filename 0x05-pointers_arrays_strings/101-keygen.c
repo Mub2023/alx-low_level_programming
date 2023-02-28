@@ -15,11 +15,11 @@ int main(void)
 	sum = 0;
 	srand(time(NULL));
 
-	for (w = 0, w < 100, w++)
+	for (w = 0; w < 100; w++)
 	{
 	word[w] = rand() % 78;
 sum += (word[w] + '0');
-putchar(pass[w] + '0');
+putchar(word[w] + '0');
 if ((2772 - sum)-'0' < 78)
 {
 	q = 2772 - sum - '0';
@@ -29,5 +29,5 @@ if ((2772 - sum)-'0' < 78)
 }
 }
 
-return (0)
+return (0);
 	}
