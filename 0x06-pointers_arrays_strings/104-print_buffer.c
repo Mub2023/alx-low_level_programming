@@ -20,7 +20,7 @@ void print_buffer(char *b, int size)
 	while (a < size)
 	{
 		d = size - a < 10 ? size - a : 10;
-		printf("%08x:", a);
+		printf("%08x: ", a);
 		for (c = 0; c < 10; c++)
 		{
 			if (c < d)
@@ -32,9 +32,9 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (d = 0; d < c; d++)
+		for (d = 0; c < d; d++)
 		{
-			int w = *(b + a + d);
+			int w = *(b + a + c);
 
 			if (w < 32 || c > 132)
 			{
