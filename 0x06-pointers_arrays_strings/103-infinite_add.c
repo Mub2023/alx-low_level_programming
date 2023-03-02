@@ -50,6 +50,10 @@ while (b >= 0 || a >= 0 || overflow == 1)
 		vl1 = 0;
 	else
 		vl1 = *(n1 + a)-'0';
+	if (b < 0)
+		vl2 = 0;
+	else
+		vl2 = *(n2 + b)-'0';
 	temp_tot = vl1 + vl2 + overflow;
 		if (temp_tot >= 10)
 			overflow = 1;
@@ -59,8 +63,8 @@ while (b >= 0 || a >= 0 || overflow == 1)
 		return (0);
 	*(r + digits) = (temp_tot % 10) + '0';
 	digits++;
-	b++;
-	a++;
+	b--;
+	a--;
 }
 if (digits == size_r)
 {
