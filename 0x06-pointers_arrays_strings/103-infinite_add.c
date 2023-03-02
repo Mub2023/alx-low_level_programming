@@ -1,5 +1,29 @@
 #include "main.h"
 /**
+ * rev_string - reverse array
+ * @n:  integer params
+ * Return: 0
+ */
+void rev_string(char *n)
+{
+	int x, y;
+	char temp;
+
+	while (*(n + x) != '\0')
+	{
+		x++;
+	}
+	x++;
+
+	for (y = 0; y < x; y++, x--)
+	{
+		temp = *(n + y);
+		*(n + y) = *(n + x);
+		*(n + x) = temp;
+	}
+}
+
+/**
  * infinite_add - a function that adds two numbers.
  * @n1: is number 1
  * @n2: is number 2
@@ -23,10 +47,10 @@ if (b >= size_r || a >= size_r)
 while (b >= 0 || a >= 0 || overflow == 1)
 {
 	if (a < 0)
-		vl1 = 0
+		vl1 = 0;
 	else
 		vl1 = *(n1 + a)-'0';
-	temp_tot = vl1 + vl2 + overflow
+	temp_tot = vl1 + vl2 + overflow;
 		if (temp_tot >= 10)
 			overflow = 1;
 		else
