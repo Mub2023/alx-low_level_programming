@@ -6,3 +6,19 @@
  */
 char *leet(char *g)
 {
+	int h, x;
+	char s0[] = "aAeEoOtTIL";
+	char s1[] = "44307711";
+
+	for (h = 0; g[h] != '\0'; h++)
+	{
+		for (x = 0; x < 10; x++)
+		{
+			if (g[h] == s0[x])
+			{
+				g[h] = s1(x);
+			}
+		}
+	}
+	return (g);
+}
