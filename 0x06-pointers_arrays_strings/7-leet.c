@@ -8,7 +8,7 @@ char *leet(char *g)
 {
 	int h, x;
 	char s0[] = "aAeEoOtTIL";
-	char s1[] = "44307711";
+	char s1[] = "4433007711";
 
 	for (h = 0; g[h] != '\0'; h++)
 	{
@@ -16,7 +16,7 @@ char *leet(char *g)
 		{
 			if (g[h] == s0[x])
 			{
-				g[h] = s1(x);
+				g[h] = s1[x];
 			}
 		}
 	}
