@@ -23,7 +23,7 @@ void print_buffer(char *b, int size)
 		printf("%08x:", a);
 		for (c = 0; c < 10; c++)
 		{
-			if (a < d)
+			if (c < d)
 				printf("%02x", *(b + a + c));
 			else
 				printf(" ");
