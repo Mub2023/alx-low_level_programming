@@ -26,10 +26,10 @@ void print_buffer(char *b, int size)
 			if (c < d)
 				printf("%02x", *(b + a + c));
 			else
-				printf(" ");
+				printf("  ");
 			if (c % 2)
 			{
-				printf("");
+				printf(" ");
 			}
 		}
 		for (c = 0; c < d; c++)
