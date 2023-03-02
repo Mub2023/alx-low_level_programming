@@ -63,7 +63,9 @@ while (b >= 0 || a >= 0 || overflow == 1)
 	a++;
 }
 if (digits == size_r)
+{
 	return (0);
+}
 	*(r + digits) = '\0';
 	rev_string(r);
 	return (r);
