@@ -32,7 +32,7 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (d = 0; c < d; d++)
+		for (c = 0; c < d; c++)
 		{
 			int w = *(b + a + c);
 
