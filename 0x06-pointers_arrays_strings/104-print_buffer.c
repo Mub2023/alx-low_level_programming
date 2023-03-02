@@ -29,7 +29,7 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			if (c % 2)
 			{
-				printf(" ");
+				printf("");
 			}
 		}
 		for (c = 0; c < d; c++)
