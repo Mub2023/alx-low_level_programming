@@ -6,14 +6,14 @@
  */
 void rev_string(char *n)
 {
-	int x, y;
+	int x = 0, y = 0;
 	char temp;
 
 	while (*(n + x) != '\0')
 	{
 		x++;
 	}
-	x++;
+	x--;
 
 	for (y = 0; y < x; y++, x--)
 	{
