@@ -1,5 +1,5 @@
 #include "main.h"
-int checker(char *s, int x, int len);
+int checker_string(char *s, int x, int len);
 int _strlen_recursion(char *s);
 /**
  * is_palindrome - checks if the string is plalindrome
@@ -35,12 +35,12 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if palindrome, 0 if not palindrome
  */
-int checker(char *s, int x, int len)
+int checker_string(char *s, int x, int len)
 {
 	if (*(s + x) != *(s + len - 1))
 		return (0);
 	if (x >= len)
 		return (1);
 
-	return (checker(s, x + 1, len - 1));
+	return (checker_string(s, x + 1, len - 1));
 }

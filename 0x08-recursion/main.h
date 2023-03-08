@@ -12,7 +12,7 @@ int find_nat(int nb, int root);
 int is_prime_number(int n);
 int checker(int number, int dv);
 int is_palindrome(char *s);
-int checker(char *s, int x, int len);
+int checker_string(char *s, int x, int len);
 int _strlen_recursion(char *s);
 int wildcmp(char *s1, char *s2);
 
