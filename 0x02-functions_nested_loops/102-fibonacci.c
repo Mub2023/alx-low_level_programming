@@ -1,5 +1,6 @@
-/**
+/*
  * file name :102-fibonacci.c
+ * Auth: mubarak musad atta
  */
 #include <stdio.h>
 /**

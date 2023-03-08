@@ -1,11 +1,11 @@
-/**
+/*
  * file : 104-fibonacci.c
  * Athu : mubarak musad atta
  */
 #include <stdio.h>
 /**
- * main - A program to print the first 100 Fibonacci numbers
- * Return: Always (0) Success
+ * main - computer class print first 98 Fibonacci numbers, starting with
+ * Return: 0 Success
  */
 int main(void)
 {

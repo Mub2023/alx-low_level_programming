@@ -1,4 +1,4 @@
-/**
+/*
  * file name :101-natural.c
  * Auth: mubarak musad atta
  */

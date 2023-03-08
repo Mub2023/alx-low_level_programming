@@ -1,6 +1,6 @@
-/**
+/*
  * file name : 103-fibonacci.c
- * athu : muarak musad atta
+ * auth : muarak musad atta
  */
 #include <stdio.h>
 /**
