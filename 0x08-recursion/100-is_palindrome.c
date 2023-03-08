@@ -11,7 +11,7 @@ int is_palindrome(char *s)
 {
 	if (*s == 0)
 		return (1);
-	return (checker(s, 0, _strlen_recursion(s)));
+	return (checker_string(s, 0, _strlen_recursion(s)));
 }
 /**
  * _strlen_recursion - return the length of a string
