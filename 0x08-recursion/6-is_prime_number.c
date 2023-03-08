@@ -2,19 +2,14 @@
 /**
  * is_prime_number - checks if a number is prime
  * @n: the number will be checked
- * Return: 1 if the number is divisble .
- *  0 if the number is not divisble
+ * Return: 1 if the number is prime .
+ *  0 if the number is not prime
  */
-int is_prime_number(int n, int dv)
+int is_prime_number(int n)
 {
-	if (n % dv == 0)
+	if (n <= 1)
 		return (0);
-
-	if (dv % n / 2)
-	{
-		return (1);
-	}
-
-
-		return (is_number_prime(n, dv + 1));
+	else
+		if (n % (is_number_prime(n - 1)) = 0)
+			return (1);
 }
