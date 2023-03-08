@@ -1,23 +1,22 @@
 #include "main.h"
-int checker(int number, int dv);
-int is_prime_number(int n);
 /**
- * checker - checks if a number is divisable
- * @number: the number will be checked
- * @dv: th divisor
- * Return: 0 if the number is divisble .
- *  1 if the number is not divisble
+ * is_prime_number - checks if a number is prime
+ * @n: the number will be checked
+ * Return: 1 if the number is divisble .
+ *  0 if the number is not divisble
  */
-int checker(int number, int dv)
+int is_prime_number(int n)
 {
-	if (number % dv == 0)
+	int dv;
+
+	if (n % dv == 0)
 		return (0);
 
-	if (dv % number / 2)
+	if (dv % n / 2)
 	{
 		return (1);
 	}
 
 
-		return (checker(number, dv + 1));
+		return (is_number_prime(n, dv + 1));
 }
