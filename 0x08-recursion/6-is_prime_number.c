@@ -5,10 +5,8 @@
  * Return: 1 if the number is divisble .
  *  0 if the number is not divisble
  */
-int is_prime_number(int n)
+int is_prime_number(int n, dv)
 {
-	int dv;
-
 	if (n % dv == 0)
 		return (0);
 
