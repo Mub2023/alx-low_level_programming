@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * _at - converts a string to integer
+ * @s: is the pointer
+ */
+/**
  * main - multiplies two numbers
  * @argc: is the count of the argv
  * @argv: is the array
@@ -9,23 +13,24 @@
  */
 int main(int argc, char *argv[])
 {
-	int result, n1;
+	int result, n1, n2, x;
 
-	result = 1;
-	for (n1 = 1; n1 < argc; n1++)
+	        if (argc <= 1)
+		{
+			n1 = 0;
+			n2 = 0;
+			printf("Error\n");
+			return (1);
+		}
+		else
+		{
+	n1 = strtol(argv[1], NULL, 10);
+	n2 = strtol(argv[2], NULL, 10);
+	for (x = 1; x < argc; x++)
 	{
-		int x = strtol(argv[n1], NULL, 10);
-
-		result *= x;
+		result = n1 * n2;
 	}
-	if (result == 1)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	else
-	{
 	printf("%d\n", result);
-	}
 	return (0);
+		}
 }
