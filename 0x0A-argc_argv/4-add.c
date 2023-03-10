@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -36,7 +37,7 @@ int main(int argc, char *argv[])
 	{
 		if (check_number(argv[count]))
 	{
-		s_to_int = _atoi(argv[count]);
+		s_to_int = atoi(argv[count]);
 		sum += s_to_int;
 	}
 		else
