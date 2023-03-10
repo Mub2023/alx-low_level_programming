@@ -15,11 +15,13 @@ int main(int argc, char *argv[])
 	for (n1 = 1; n1 < argc; n1++)
 	{
 		int x = strtol(argv[n1], NULL, 10);
+
 		result *= x;
 	}
 	if (result == 1)
 	{
 		printf("Error\n");
+		return (1);
 	}
 	else
 	{
