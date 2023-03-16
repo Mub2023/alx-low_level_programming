@@ -10,7 +10,7 @@ void *malloc_checked(unsigned int b)
 {
 	int *myp;
 
-	myp = malloc(sizeof(b));
+	myp = malloc(b);
 
 	if (myp == NULL)
 	{
