@@ -195,7 +195,8 @@ int main(int argc, char *argv[])
 		argv[2] = _zeroes(argv[2]);
 	if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
 	{
-		printf("0\n");
+		_putchar('0');
+		_putchar('\n');
 		return (0);
 	}
 
