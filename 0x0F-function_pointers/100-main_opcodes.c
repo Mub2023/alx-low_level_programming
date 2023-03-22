@@ -28,10 +28,10 @@ int main(int argc, char *argv[])
 	{
 		if (x == bytes - 1)
 		{
-			printf("%02hhx\n", p[x]);
+		printf("%02hhx\n", p[x]);
 			break;
 		}
-		printf("%02hhx", p[x]);
+		printf("%02hhx ", p[x]);
 	}
 	return (0);
 }
