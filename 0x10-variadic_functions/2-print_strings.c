@@ -15,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (x = 0; x < n; x++)
 	{
 		p = va_arg(s, char *);
-		if (s == NULL)
+		if (p == NULL)
 			printf("(nil)");
 		else
 			printf("%s", p);
