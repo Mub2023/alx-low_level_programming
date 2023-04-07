@@ -42,7 +42,7 @@ void close_me(int f)
  */
 int main(int argc, char *argv[])
 {
-	int from, to , r, w;
+	int from, to, r, w;
 	char *bufer;
 
 	if (argc != 3)
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 	bufer = buffer(argv[2]);
 	from = open(argv[1], O_RDONLY);
 	r = read(from, bufer, 1024);
-	to = open (argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
 		if (from == -1 || r == -1)
