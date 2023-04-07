@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
 
 	} while (r > 0);
 	free(bufer);
-	close(from);
-	close(to);
+	close_me(from);
+	close_me(to);
 	return (0);
 }
