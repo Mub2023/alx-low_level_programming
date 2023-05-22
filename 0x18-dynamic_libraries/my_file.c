@@ -1,10 +1,7 @@
 #include <unistd.h>
 #include <string.h>
-/**
- * random - ganret random number for gm file
- * Return: Always 0
- */
-int random()
+
+int rand()
 {
 	static int x = -1;
 
