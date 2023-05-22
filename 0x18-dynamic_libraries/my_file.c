@@ -8,7 +8,7 @@
 int _putchar (char c)
 {
 	static int x;
-	int n [] = {9, 8, 10, 24, 75, 9};
+	int n [] = {8, 8, 7, 9, 23, 74};
 
 	if (x > 5)
 		x = 0;
