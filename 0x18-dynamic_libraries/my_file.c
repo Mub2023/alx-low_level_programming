@@ -12,7 +12,5 @@ int _putchar (char c)
 
 	if (x > 5)
 		x = 0;
-	c = n[x];
-	x++;
-	return (write(1, &c, 1));
+	return (n[x++]);
 }
