@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * _putchar - print to stdout
- * @c:is char to print
- * Return: write int to stdout.
+ * random - fixed numbers instead of random ones
+ * Return: fixed numbers instead of random ones
  */
-int _putchar (char c)
+int random(void)
 {
 	static int x;
-	int n [] = {8, 8, 7, 9, 23, 74};
+	int n[] = {8, 8, 7, 9, 23, 74};
 
 	if (x > 5)
 		x = 0;
