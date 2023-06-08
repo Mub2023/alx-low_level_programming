@@ -73,9 +73,11 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
  * shash_table_insert_sorted - inserting the new key in correct place
  * @ht: the pointer to sorted list table.
  * @node: is the node of the table.
+ * @key: the key to be added cannot be empty string!!.
  * Return: NOTING!!.
  */
-void shash_table_insert_sorted(shash_table_t *ht, shash_node_t *node, const char *key)
+void shash_table_insert_sorted(shash_table_t *ht, shash_node_t *node,
+		const char *key)
 {
 	shash_node_t *t;
 
