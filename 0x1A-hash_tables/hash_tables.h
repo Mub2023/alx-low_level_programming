@@ -34,7 +34,7 @@ typedef struct hash_table_s
 } hash_table_t;
 /**
  * struct shash_node_s - Node of a sorted hash table
- * 
+ *
  * @key: The key, string
  * The key is unique in the HashTable
  * @value: The value corresponding to a key
@@ -53,7 +53,7 @@ typedef struct shash_node_s
 
 /**
  * struct shash_table_s - Sorted hash table data structure
- * 
+ *
  * @size: The size of the array
  * @array: An array of size @size
  * Each cell of this array is a pointer to the first node of a linked list,
