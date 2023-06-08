@@ -66,6 +66,18 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	} node->value = copy;
 	node->next = ht->array[x];
 	ht->array[x] = node;
+	shash_table_insert_sorted(ht, node, key);
+	return (1);
+}
+/**
+ * shash_table_insert_sorted - inserting the new key in correct place
+ * @ht: the pointer to sorted list table.
+ * @node: is the node of the table.
+ * Return: NOTING!!.
+ */
+void shash_table_insert_sorted(shash_table_t *ht, shash_node_t *node, const char *key)
+{
+	shash_node_t *t;
 
 	if (ht->shead == NULL)
 	{
@@ -91,7 +103,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		else
 			t->snext->sprev = node;
 		t->snext = node;
-	} return (1);
+	}
 }
 /**
  * shash_table_get - Retrieve the value associated with key in sorted table
